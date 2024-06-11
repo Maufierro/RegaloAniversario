@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(249, 232, 201);
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Encabezado*/
+.navbar{
+    border: 7px solid rgb(29, 36, 202);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.navbar img:hover{
+    transform: scale(1.1);
+}
+
+.navbar-toggler{
+    filter: invert();
+}
+
+.container-fluid{
+    background-color: rgb(32, 22, 88);
+    height: 100%;
+}
+
+.nav-item a{
+    color: rgb(32, 22, 88) !important;
+    
+}
+
+.navbar li {
+    border: 5px solid rgb(29, 36, 202);
+    border-radius: 20px;
+    background-color: rgb(152, 171, 238);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+
+}
+
+/**/
+
+.Principal{
+    background-image: image();
+}
+
+h1{
+    font-family: "Sedan SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: rgb(29, 36, 202);
+    text-shadow: 2px 3px rgb(249, 232, 201);
+    font-size: 80px;
+    width: 100%;
+    height: 10%;
+    background-image: url(/imagenes/estrellas.jpg);
+}
+/*Edicion de las cartas*/
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 40px auto 100px auto;
+    padding: 30px;
+    border: 7px solid rgb(29, 36, 202);
+    border-radius: 50px;
+    background-color: rgb(152, 171, 238);
+    color: rgb(29, 36, 202);
+    margin-bottom: 30px;
+    font-size: 200%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+select{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(152, 171, 238);
+    border: 5px solid rgb(29, 36, 202);
+    color: rgb(29, 36, 202);
+    text-align: center;
+}
+
+
+#carta1{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    background-color: rgb(152, 171, 238);
+    color: rgb(29, 36, 202);
+    border: 7px solid rgb(32, 22, 88);
+    font-size: 200%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: auto;
+    margin-top: 100px;
+    padding: 2px;
+}
+
+#carta2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    background-color: rgb(152, 171, 238);
+    color: rgb(29, 36, 202);
+    border: 7px solid rgb(32, 22, 88);
+    font-size: 200%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: auto;
+    margin-top: 100px;
+    padding: 2px;
+}
+
+#carta3{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    background-color: rgb(152, 171, 238);
+    color: rgb(29, 36, 202);
+    border: 7px solid rgb(32, 22, 88);
+    font-size: 200%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: auto;
+    margin-top: 100px;
+    padding: 2px;
+}
+
+#carta4{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    background-color: rgb(152, 171, 238);
+    color: rgb(29, 36, 202);
+    border: 7px solid rgb(32, 22, 88);
+    font-size: 200%;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: auto;
+    margin-top: 100px;
+    padding: 2px;
+}
+
+/*Footer*/
+.footer{
+    width: 100%;
+    background-color: rgb(32, 22, 88);
+    border: 7px solid rgb(29, 36, 202);
+    color: rgb(152, 171, 238);
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

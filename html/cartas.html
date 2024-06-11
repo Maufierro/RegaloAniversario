@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4df51286c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/cartas.css">
+    <title>Feliz Aniversario</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/imagenes/Logo Mautina.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/html/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/Album.html">Album</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/cartas.html">Cartas</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <h1>Cartas con amor</h1>
+    <section class="formulario">
+    <form>
+        <label for="estados"><i class="fa-solid fa-heart"></i>Como estas hoy mi amor?<i class="fa-solid fa-heart"></i></label>
+        <div class="form-group">
+            <select onclick="mostrarCarta()" id="estados" name="estados" required>
+                <option value="" id="" selected disabled>Seleccionar estado de animo</option>
+                <option value="Feliz">Feliz</option>
+                <option value="Triste">Triste</option>
+                <option value="Enojada">Enojada</option>
+                <option value="Preocupada">Preocupada</option>
+            </select>
+        </div>
+    </form>
+</section>
+    <div id="carta1">
+        <p>Amor, gracias por ser lo mejor que tengo en la vida, no hay nada mas que desee que estar con vos por el resto de nuestras vidas. Sos la persona que me hace querer mejorar siempre y me impulsa a ser la mejor version de mi. Gracias por siempre precocuparte por nosotros y por mi, por encargarte de las cosas que yo recien hoy en dia puedo darme cuenta, estaban mal. Te amo y quiero que todo el mundo lo sepa, que vean lo asombrosa, graciosa, inteligente, chismosa y divertida que sos. Nunca jamas voy a dejar de amarte.</p>
+    </div>
+    <div id="carta2">
+      <p>Owww estas triste bebe? Primero secate las lagrimas, despues pensa en los hermosos momentos que tuvimos y en los que vamos a tener ;3. A nuestros hijitos hermosos que siempre nos van a querer, con sus sonrisitas, mientras descubren el mundo que los rodea y vienen llenos de felicidad a mostrarte lo que lograron. Cuando te vean llorar te van a abrazar y te van a querer sacar esas sonrisa hermosa tuya que me enamora cada dia mas</p>
+  </div>
+  <div id="carta3">
+    <p>Supongo que si estas leyendo esto es porque estas enojada conmigo jeje. Perdon por lo que sea que haya hecho, yo no quiero lastimarte enserio, solo soy un humano que comete errores. Pero aprendo, lento pero aprendo. Y te juro con mi vida que no hay nada que mas que quiera en este mundo que ver tu sonrisa, verte feliz, asi que hacerte enojar me duele muchisimo. Ver como ese amor tan llamente se apaga y solo deja a la oscuridad me hace pensar lo peor. Pero se que nuestro amor es mas fuerte, y mi amor por vos van a generar ese cambio. Poco a Poco.</p>
+</div>
+<div id="carta4">
+  <p>Hola bebe, se que estas preocupada, posiblemente por el estudio. O quizas por el futuro, quien sabe, soy solo una carta jajaja. Pero amor cualquier problema que tengas tiene solucion, se que lo vamos a poder afrontar, tanto juntos como vos sola. Sos inteligente, algo se te va a ocurrir para poder lograr tu objetivo como siempre haces, vos y esa cabecita que nunca deja de pensar que amo. No decaigas que siempre es un paso mas cerca de nuestro sueño.</p>
+</div>
+    <footer class="footer">
+        <i class="fa-solid fa-heart"></i> Para el amor de mi vida | Feliz Aniversario <i class="fa-solid fa-heart"></i>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/cartas.js"></script>
+    </body>
+    </html>
